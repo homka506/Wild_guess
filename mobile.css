@@ -1,0 +1,1507 @@
+/*css for wild-help-1*/
+.help {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.button_fill,
+.button_transparent {
+    min-width: 222px;
+    width: auto;
+    max-width: max-content;
+    min-height: 55px;
+    height: auto;
+    max-height: max-content;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.help::before {
+    position: absolute;
+    content: '';
+    width: 336px;
+    height: 336px;
+    left: -141px;
+    top: -220px;
+    background: #54C147;
+    border-radius: 0 50% 50%;
+}
+
+
+.help_continer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help_title {
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.h1 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+
+.help_subtitle {
+    font-weight: 700;
+}
+
+.help_text {
+    font-weight: 500;
+    margin-bottom: 78px;
+}
+
+.help_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.button_fill {
+    background: #F19800;
+    margin-bottom: 37px;
+}
+
+.button_transparent {
+    background: transparent;
+}
+
+
+@media screen and (max-width:350px) {
+    .help::before {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height: 200px;
+        left: -100px;
+        top: -100px;
+        background: #54C147;
+        border-radius: 0 50% 50%;
+    }
+
+    button {
+        min-height: 30px;
+        border: 3px solid #FFFFFF;
+        border-radius: 31px;
+        font-size: 16px;
+        line-height: 28px;
+        border: 2px solid #FFFFFF;
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .help_title {
+        margin-bottom: 25px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .help_text {
+        margin-bottom: 25px;
+    }
+
+    .button_fill {
+        margin-bottom: 18px;
+    }
+}
+
+/* end css for wild-help-1*/
+
+/*css WILD-my-team-guide*/
+.team {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.team_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 14px;
+    font-family: Roboto;
+
+}
+
+.team_header__button {
+    min-width: 106px;
+    width: auto;
+    max-width: max-content;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    padding: 7px 14px;
+    background: #260B52;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #fff;
+    text-align: center;
+
+}
+
+.team_header_info {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.team_list__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team_list__header h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.team_list__header p {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 25px;
+
+}
+
+.team_list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list {
+    list-style: none;
+
+
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #320D6F;
+    mix-blend-mode: screen;
+    border-radius: 41px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 8px 97px 8px 80px;
+    margin-bottom: 26px;
+}
+
+.list li svg {
+    margin-right: 29px;
+}
+
+.list li:last-child {
+    margin-bottom: 0;
+}
+
+.team_list__arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.team_list__arrows svg {
+    margin-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.team_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 0;
+    padding-top: 15px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.team_score::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.team_result {
+    margin-bottom: 26px;
+}
+
+.team_result h2 {
+    margin-top: 60px;
+    position: relative;
+}
+
+.team_result h2::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 25px;
+    left: 0;
+
+}
+
+.team_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_return,
+.button_game {
+    min-width: 270px;
+    width: auto;
+    max-width: max-content;
+    min-height: 55px;
+    height: auto;
+    max-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button_return {
+    margin-bottom: 17px;
+    background: #F19800;
+}
+
+.button_game {
+    background: #FB5139;
+}
+
+/* end css WILD-my-team-guide*/
+
+/* styles for WILD-my-team-popup*/
+.team {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.team_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 14px;
+    font-family: Roboto;
+
+}
+
+.team_header__button {
+    min-width: 106px;
+    width: auto;
+    max-width: max-content;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    padding: 7px 14px;
+    background: #260B52;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #fff;
+    text-align: center;
+
+}
+
+.team_header_info {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.team_item_popup {
+    opacity: .5;
+}
+
+.team_list__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team_list__header h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.team_list__header p {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 25px;
+
+}
+
+.team_list__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list {
+    list-style: none;
+
+
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #320D6F;
+    mix-blend-mode: screen;
+    border-radius: 41px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 8px 97px 8px 80px;
+    margin-bottom: 26px;
+}
+
+.list li svg {
+    margin-right: 29px;
+}
+
+.list li:last-child {
+    margin-bottom: 0;
+}
+
+.team_list__arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.team_list__arrows svg {
+    margin-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.team_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 0;
+    padding-top: 15px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.team_score::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.team_result {
+    margin-bottom: 26px;
+}
+
+.team_result h2 {
+    margin-top: 60px;
+    position: relative;
+}
+
+.team_result h2::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 25px;
+    left: 0;
+
+}
+
+.team_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_return,
+.button_game {
+    min-width: 270px;
+    width: auto;
+    max-width: max-content;
+    min-height: 55px;
+    height: auto;
+    max-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button_return {
+    margin-bottom: 17px;
+    background: #F19800;
+}
+
+.button_game {
+    background: #FB5139;
+}
+
+.team_popup {
+    width: 90%;
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.team_popup_continer {
+    padding: 84px 15px 15px;
+
+}
+
+.team_popup_close::before {
+    content: '';
+    background-image: url(./error-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    top: -25px;
+    left: 38%;
+}
+
+.team-popup_title {
+    font-family: Raleway;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #7C8691;
+}
+
+.team-popup_title h2 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 13px;
+
+}
+
+.team-popup_sibtitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+
+}
+
+.team-popup_buttons button {
+    min-width: 144px;
+    width: auto;
+    max-width: max-content;
+    min-height: 38px;
+    height: auto;
+    max-height: max-content;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    border-radius: 46px;
+
+}
+
+.button_back {
+    background: #D0DEEB;
+    color: #9BA9B9;
+    margin-right: 13px;
+}
+
+.button_leave {
+    background: #FB4B4B;
+    color: #fff;
+}
+
+/* end styles for WILD-my-team-popup*/
+
+
+/* styles for WILD-s0-device-survey-q10-multiplet*/
+.multiple {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.multiple::before {
+    position: absolute;
+    content: '';
+    width: 336px;
+    height: 336px;
+    right: -141px;
+    top: -220px;
+    background: #54C147;
+    border-radius: 0 50% 50%;
+}
+
+.multiple_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.multiple_item {
+    margin-top:169px;
+    margin-bottom:103px;
+
+}
+.multiple_subtitle,
+.multiple_title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+}
+
+.multiple_subtitle::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 30px;
+    left: 0;
+
+}
+
+.multiple_checkbox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.multiple_checkbox input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+
+    border-radius: 15px;
+}
+
+.multiple_checkbox input:checked~.checkmark {
+    background: #54C147;
+    border: 1px solid #FFFFFF;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.multiple_checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+.multiple_checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.multiple_required p {
+    position: relative;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+.multiple_required p::before {
+    content: '';
+    background-image: url(./error-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: -2px;
+    left: 0;
+}
+
+.multiple_button button {
+
+    background: #F19800;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    min-width: 164px;
+    width: auto;
+    max-width: max-content;
+    min-height: 47px;
+    height: auto;
+    max-height: max-content;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* end styles for WILD-s0-device-survey-q10-multiplet*/
+
+/* styles for  WILD-s0-device-survey-q10-numeric */
+
+.numeric {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.numeric::before {
+    position: fixed;
+    content: '';
+    width: 336px;
+    height: 336px;
+    right: -141px;
+    top: -220px;
+    background: #54C147;
+    border-radius: 0 50% 50%;
+}
+
+.numeric_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.numeric_item {
+    margin-top: 138px;
+}
+
+.numeric_subtitle,
+.numeric_title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+}
+
+.numeric_subtitle::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 30px;
+    left: 0;
+
+}
+
+.numeric_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.numeric_input input {
+    margin-bottom: 12px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 5px solid;
+    color: #fff;
+}
+
+.numeric_input label {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.numeric_required p {
+    position: relative;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 23px;
+    padding-left: 30px;
+}
+
+.numeric_required p::before {
+    content: '';
+    background-image: url(./error-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: -2px;
+    left: 0;
+}
+
+.numeric_button button {
+    background: #F19800;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    min-width: 164px;
+    width: auto;
+    max-width: max-content;
+    min-height: 47px;
+    height: auto;
+    max-height: max-content;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/*  end styles for  WILD-s0-device-survey-q10-numeric */
+
+
+/* styles for WILD-s0-device-survey-start */
+.start {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.start_item {
+    margin-top: 75px;
+}
+
+.start_subtitle {
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+.start_subtitle h2 {
+    font-weight: 700;
+}
+
+.start_subtitle h2 span {
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+.start_subtitle p {
+    font-weight: 500;
+}
+
+.start_button button {
+    width: 164px;
+    min-height: 78px;
+    height: auto;
+    max-height: max-content;
+    background: #F19800;
+    border: 3px solid #FFFFFF;
+    border-radius: 51px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*  end styles for WILD-s0-device-survey-start */
+
+/* styles for WILD-s0-device-trivia*/
+.trivia {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.trivia_item {
+    margin-top: 30px;
+}
+
+
+.trivia_header {
+    margin-right: 27px;
+    text-align: right;
+}
+
+.trivia_header_button {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: auto;
+    min-width: 136px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    color: #fff;
+    margin-right: 19px;
+
+}
+
+.trivia_header a {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 4px 13px;
+}
+
+.trivia_title {
+    margin-top: 90px;
+}
+
+.trivia_subtitle h2 {
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0em;
+    margin-bottom: 48px;
+}
+
+
+.trivia_button button {
+    width: auto;
+    min-width: 221px;
+    min-height: 55px;
+    height: auto;
+    max-height: max-content;
+    background: #F19800;
+    border: 3px solid #FFFFFF;
+    border-radius: 51px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*  end styles for WILD-s0-device-trivia*/
+
+/* styles for WILD-s1-device-a*/
+.result {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.result_item {
+    margin-top: 30px;
+}
+
+.result::before {
+    position: fixed;
+    content: '';
+    width: 336px;
+    height: 336px;
+    left: -141px;
+    bottom: -220px;
+    background: #54C147;
+    border-radius: 50%;
+}
+
+.result::after {
+    position: fixed;
+    content: '';
+    width: 198px;
+    height: 198px;
+    left: 30%;
+    bottom: -150px;
+    background: #260B52;
+    border-radius: 50%;
+}
+
+.result_header {
+    margin-right: 27px;
+    margin-left: 27px;
+    text-align: right;
+    display: flex;
+}
+
+.result_header_button--bold,
+.result_header_button {
+    font-family: Roboto;
+    background-color: transparent;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.result_header_button--bold {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    width: auto;
+    min-width: 93px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    margin-right: 28px;
+}
+
+.result_header_button {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    width: auto;
+    min-width: 136px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    margin-right: 19px;
+
+}
+
+.result_header a {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 4px 13px;
+}
+
+.result_title {
+    margin-top: 90px;
+}
+
+.result_title h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.result_button {
+    margin-bottom: 43px;
+}
+
+.result_button button {
+    width: auto;
+    min-width: 220px;
+    min-height: 50px;
+    height: auto;
+    max-height: max-content;
+    background: #F19800;
+    border: 3px solid transparent;
+    border-radius: 40px;
+    font-family: Roboto;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.result_button p {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+
+/*  end styles for WILD-s1-device-a*/
+
+/*styles for WILD-s1-device-q-guide */
+.guide_header {
+    margin-top: 30px;
+    text-align: right;
+    display: flex;
+}
+
+.guide_header_button--bold,
+.guide_header_button {
+    font-family: Roboto;
+    background-color: transparent;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.guide_header_button--bold {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    width: auto;
+    min-width: 93px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    margin-right: 28px;
+}
+
+.guide_header_button {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    width: auto;
+    min-width: 136px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    margin-right: 19px;
+
+}
+
+.guide_header a {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 4px 13px;
+}
+
+.guide {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+
+.guide_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 143px
+}
+
+.guide_subtitle {
+    margin-top: 46px;
+    margin-bottom: 46px;
+    position: relative;
+}
+
+.guide_subtitle,
+.guide_title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+}
+
+.guide_title {
+    margin-bottom: 46px;
+}
+
+.guide_subtitle::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 19px;
+    top: 30px;
+    left: 0;
+
+}
+
+.guide_input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.guide_input input {
+    margin-bottom: 12px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 5px solid;
+    color: #fff;
+    width:297px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.guide_input label {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.guide_required p {
+    position: relative;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.guide_required p::before {
+    content: '';
+    background-image: url(./error-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: -2px;
+    left: 0;
+}
+
+.guide_button button {
+    background: #F19800;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    min-width: 164px;
+    width: auto;
+    max-width: max-content;
+    min-height: 47px;
+    height: auto;
+    max-height: max-content;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.guide_answer {
+    display: flex;
+    justify-content: center;
+}
+.guide_answer_result {
+    position: relative;
+    z-index: 1;
+    height: 30px;
+    width: 31px;
+}
+
+.guide_answer p {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left:10px;
+    
+}
+
+.guide_answer_result::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 31px;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+/* end styles for WILD-s1-device-q-guide */
