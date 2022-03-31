@@ -1736,11 +1736,13 @@ p {
     border: 5px solid #FFFFFF;
     border-radius: 37px;
 }
+
 #raiting_button--red {
     background: #FB5139;
     border: 5px solid #FFFFFF;
     border-radius: 37px;
 }
+
 .raiting_group_title span {
     position: relative;
     z-index: 1;
@@ -1779,4 +1781,240 @@ p {
     left: 0;
     z-index: -1;
 }
+
 /* end styles for WILD-s3-device-guide-1 */
+
+/* styles for WILD-s4-device-card-2 */
+.card2 {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card2_container {
+    margin: 30px 27px 41px 27px;
+}
+
+.card2_header {
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+.card2_header_button {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: auto;
+    min-width: 136px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    color: #fff;
+    margin-right: 19px;
+
+}
+
+.card2_header a {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 4px 13px;
+}
+
+.card2_subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-bottom: 25px;
+}
+
+.card2_subtitle span {
+    position: relative;
+
+}
+
+.card2_subtitle span::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: 25px;
+    left: -15px;
+}
+
+.card2_text {
+    margin-bottom: 48px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.card2_text span {
+    font-weight: 800;
+}
+
+.card2_title {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.card2_button button {
+    width: auto;
+    min-width: 220px;
+    min-height: 50px;
+    height: auto;
+    max-height: max-content;
+    background: #F19800;
+    border-radius: 40px;
+    border: none;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 43px;
+
+}
+
+.card2_result h2 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.card2_result_list {
+    list-style: none;
+    padding-inline-start: 0;
+    max-width:313px;
+    margin: auto;
+
+}
+
+.card2_result_list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #320D6F;
+    mix-blend-mode: screen;
+    border-radius: 41px;
+    padding: 8px 8px 8px 22px;
+    margin-top: 20px;
+}
+
+.card2_result_list li p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card2_result_list li a {
+    position: relative;
+    width: 23px;
+    height: 23px;
+}
+
+.card2_result_list li a::before {
+    content: '';
+    background-image: url(./error-icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 0;
+    left: 0;
+}
+
+#card2_result_check a::before {
+    content: '';
+    background-image: url(./check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 0;
+    left: 0;
+
+}
+
+.card2_score_title {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card_score_result p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 0;
+    padding-top: 15px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.card_score_result p::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* end styles for WILD-s4-device-card-2 */
