@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,500i');
 /* styles for WILD-s0-central-survey*/
 .survay {
     background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
@@ -708,14 +709,200 @@
     background-position: center;
     padding: 55px 5px 55px 110px;
 }
-@media screen and (max-width:1200px)  {
-    .card-2_quote{
+
+@media screen and (max-width:1200px) {
+    .card-2_quote {
         font-size: 24px;
 
     }
 }
+
 .card-2_quote span {
     font-weight: 700;
 }
 
 /*  end styles for WILD-s4-central-card-2*/
+
+/*  styles for WILD-s4-central-card-1*/
+.card-1 {
+    background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
+    font-family: Raleway;
+    color: #fff;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+
+.card-1_container {
+    max-width: 1400px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-1_item {
+    width: 100%;
+    position: relative;
+
+}
+
+.card-1_subtite {
+    width: 163px;
+    margin: 0 auto 37px auto;
+}
+
+.card-1_subtite p {
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 188px;
+
+
+}
+
+.card-1_subtite ::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 37px;
+    top: 50px;
+    left: 0;
+}
+.card-1_title {
+    max-width:925px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.card-1_title h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom:69px;
+
+}
+
+.card-1_title h2 span {
+    font-weight: 700;
+}
+
+.card-1_img {
+    width: 426px;
+    margin: 0 auto 69px auto;
+}
+
+.card-1_img img {
+    width: 100%;
+}
+
+.card-1_button {
+    display: flex;
+    justify-content: space-between;
+    background: #320D6F;
+    border-radius: 27px;
+    max-width: 875px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:41px 67px;
+    margin-bottom: 45px;
+}
+@media screen and (max-width:1200px)  {
+    .card-1_button {
+        flex-direction: columnпше;
+    }
+}
+.card-1_button h3 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    }
+
+.card-1_button button {
+    background: #F19800;
+    border-radius: 42px;
+    border: none;
+    min-width: 352px;
+    width: auto;
+    max-width: max-content;
+    min-height: 72px;
+    height: auto;
+    max-height: max-content;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.card-1_button p {
+font-size: 30px;
+font-weight: 800;
+line-height: 35px;
+letter-spacing: 0em;
+
+}
+.card-1_background {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1000;
+}
+
+.card-1_img_3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 336px;
+}
+
+.card-1_img_2 {
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+}
+
+.card-1_img_1 {
+    position: absolute;
+    bottom: 0;
+    height: 280px;
+}
+
+.card-1_background--right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.card-1_img_4 {
+    position: relative;
+    bottom: -10px;
+    right: -55px;
+}
+
+.card-1_img_5 {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 100%;
+}
+
+.card-1_img_6 {
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    height: 336px;
+
+}
+
+/*  end styles for WILD-s4-central-card-1*/
