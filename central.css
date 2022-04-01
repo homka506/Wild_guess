@@ -823,7 +823,7 @@
 
 @media screen and (max-width:1200px) {
     .card-1_button {
-        flex-direction: columnпше;
+        flex-direction: column;
     }
 }
 
@@ -1152,9 +1152,6 @@
     border-radius: 15px;
     font-family: Roboto;
     color: #fff;
-
-
-
 }
 
 .button_time {
@@ -1168,7 +1165,6 @@
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -0.04em;
-
 }
 
 .central_subtite {
@@ -1270,3 +1266,325 @@
 
 
 /*  end styles for WILD-s1-central*/
+
+/*  styles for WILD-s3-central-guide-1*/
+
+.guide-1 {
+    background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
+    font-family: Raleway;
+    color: #fff;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.guide-1_container {
+    max-width: 1400px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.guide-1_item {
+    width: 100%;
+    position: relative;
+
+}
+
+.guide-1_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-1_header button {
+    background: transparent;
+    border: 8px solid #FFFFFF;
+    border-radius: 15px;
+    font-family: Roboto;
+    color: #fff;
+}
+
+.guide-1_time {
+    min-width: 164px;
+    width: auto;
+    max-width: max-content;
+    min-height: 70px;
+    height: auto;
+    max-height: max-content;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+
+}
+
+.guide-1_subtite {
+    width: 188px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guide-1_subtite p {
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    width: 188px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.guide-1_subtite ::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 37px;
+    top: 50px;
+    left: 0;
+}
+
+.button_header {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    width: 238px;
+    min-height: 84px;
+    height: auto;
+    max-height: max-content;
+
+
+}
+
+.guide-1_question {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    max-width: 925px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guide-1_question span {
+    font-weight: 700;
+}
+
+.guide-1_img {
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guide-1_img img {
+    width: 100%;
+}
+
+.guide-1_quote {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    background-image: url('./card2_background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 55px 5px 55px 110px;
+}
+
+@media screen and (max-width:1200px) {
+    .guide-1_quote {
+        font-size: 24px;
+
+    }
+}
+
+.guide-1_quote span {
+    font-weight: 700;
+}
+
+.guide_1_chart {
+    display: flex;
+
+}
+@media screen and (max-width:1200px) {
+    .guide_1_chart{
+        flex-direction: column;
+    }
+}
+.chart_right,
+.chart_left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 601px;
+    position: relative;
+    padding: 20px;
+}
+
+.chart_title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 17px;
+
+}
+
+.chart_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart_value {
+    background: #F19800;
+    border-radius: 42px;
+    min-width: 218px;
+    width: auto;
+    max-width: max-content;
+    height: 68px;
+    margin-bottom: 18px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 17px;
+}
+
+.chart_item_value {
+    display: flex;
+    height: 68px;
+    margin-bottom: 18px;
+
+}
+
+.chart_line {
+    background: #57BCFF;
+    mix-blend-mode: screen;
+    height: 68px;
+}
+
+#chart_line-3 {
+    opacity: 0.4;
+    width: 50px;
+}
+
+#chart_line-10 {
+    opacity: 0.5;
+    width: 100px;
+}
+
+#chart_line-16 {
+    opacity: 0.6;
+    width: 160px;
+}
+
+#chart_line-21 {
+    opacity: 0.7;
+    width: 200px;
+}
+
+#chart_line-25 {
+    opacity: 0.8;
+    width: 250px;
+}
+
+#chart_line-36 {
+    opacity: 0.9;
+    width: 300px;
+}
+
+#chart_line-452 {
+    width: 350px;
+}
+
+.chart_round p  {
+    background: #57BCFF;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#chart_round-3 {
+    width: 50px;
+    height: 50px;
+}
+
+#chart_round-10 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#chart_round-16 {
+    width: 150px;
+    height: 150px;
+}
+
+#chart_round-21 {
+    width: 200px;
+    height: 200px;
+}
+
+#chart_round-25 {
+    width: 250px;
+    height: 250px;
+}
+
+#chart_round-25 {
+    width: 150px;
+    height: 150px;
+}
+
+#chart_round-36 {
+    width: 100px;
+    height: 100px;
+}
+
+#chart_round-452 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.chart--line {
+    height: 5px;
+    width: 30px;
+    background: #fff;
+    position: relative;
+    margin-top:35px;
+}
+
+.chart--line::after {
+    content: '';
+    height: 90px;
+    width: 5px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+.chart_line  {
+    margin-top:0;
+}
+tbody tr:last-of-type .chart--line::after{
+    background: transparent;
+}
+/*  end styles for WILD-s3-central-guide-1*/
