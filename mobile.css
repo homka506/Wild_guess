@@ -1914,7 +1914,7 @@ p {
 .card2_result_list {
     list-style: none;
     padding-inline-start: 0;
-    max-width:313px;
+    max-width: 313px;
     margin: auto;
 
 }
@@ -2018,3 +2018,220 @@ p {
 
 
 /* end styles for WILD-s4-device-card-2 */
+
+/* styles for WILD-s5-device */
+.device {
+    background: linear-gradient(180deg, #320D6F 0%, rgba(17, 100, 155, 0.7) 100%);
+    position: relative;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.device_container {
+    margin: 30px 27px 89px 30px;
+}
+
+.device_header {
+    text-align: right;
+    margin-bottom: 69px;
+}
+
+.device_header_button {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: auto;
+    min-width: 136px;
+    min-height: 45px;
+    height: auto;
+    max-height: max-content;
+    color: #fff;
+    margin-right: 19px;
+
+}
+
+.device_header a {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 4px 13px;
+}
+
+.device_title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    position: relative;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.device_title h2::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 190px;
+    height: 30px;
+    top: 25px;
+    left:0;
+}
+
+.device_list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+
+}
+
+.device_list ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin: auto;
+}
+
+.device_list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.device_list_number {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 19px;
+}
+
+#list_number--red {
+    background: #F31B46;
+}
+
+#list_number--blue {
+    background: #1E67F3;
+}
+
+#list_number--light-green {
+    background: #058A84;
+}
+
+#list_number--yellow {
+    background: #F9A00C;
+}
+
+#list_number--purple {
+    background: #44217C;
+}
+
+#list_number--green {
+    background: #4FAD53;
+}
+
+#list_number--orange {
+    background: #FE4C09;
+}
+
+.device_list_text {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-right: 15px;
+}
+
+.device_list_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 13px;
+    margin-top: 0;
+    padding-top: 8px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.device_list_score::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 52px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.device_list__arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17px;
+
+}
+
+.device_list__arrows svg {
+    margin-bottom: 50px;
+}
+
+.device_button {
+    margin-top: 48px;
+}
+
+.device_button button {
+    width: auto;
+    min-width: 270px;
+    min-height: 55px;
+    height: auto;
+    max-height: max-content;
+    background: #FB5139;
+    border: 3px solid #FFFFFF;
+    border-radius: 31px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#fff;
+
+}
+
+/* end  styles for WILD-s5-device */
