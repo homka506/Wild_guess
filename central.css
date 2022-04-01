@@ -478,7 +478,7 @@
 
 .card-4_img_3 {
     position: absolute;
-    left:0;
+    left: 0;
     top: -150px;
     height: 336px;
     transform: rotate(50deg);
@@ -496,4 +496,226 @@
     top: -55px;
     height: 280px;
 }
-/*  end styles forWILD-s4-central-card-4*/
+
+/*  end styles for WILD-s4-central-card-4*/
+
+/*  styles for WILD-s4-central-card-2*/
+.card-2 {
+    background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
+    font-family: Raleway;
+    color: #fff;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.card-2_container {
+    max-width: 1400px;
+    margin: 30px auto 25px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-2_item {
+    width: 100%;
+    position: relative;
+
+}
+
+.card-2_subtite {
+    width: 188px;
+    margin: 0 auto 37px auto;
+}
+
+.card-2_subtite p {
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    width: 188px;
+
+
+}
+
+.card-2_subtite ::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 37px;
+    top: 50px;
+    left: 0;
+}
+
+.card-2_question {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+}
+
+.card-2_question span {
+    font-weight: 700;
+}
+
+.card-2_img {
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-2_img img {
+    width: 100%;
+}
+
+.card-2_answer {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+}
+
+.card-2_answer p {
+    margin-bottom: 10px;
+}
+
+.card-2_answer span {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin-right: 25px;
+}
+
+.card-2_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 0;
+    padding-top: 8px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.card-2_score::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 62px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+}
+
+.card-2_button {
+    background: #320D6F;
+    border-radius: 27px;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 21px;
+    margin-bottom: 45px;
+}
+
+.card-2_button h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0em;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.card-2_button button {
+    background: #F19800;
+    border-radius: 42px;
+    border: none;
+    min-width: 320px;
+    width: auto;
+    max-width: max-content;
+    min-height: 72px;
+    height: auto;
+    max-height: max-content;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+.card-2_background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1000;
+}
+
+.card-2_img_3 {
+    position: absolute;
+    left: 0;
+    top: -150px;
+    height: 336px;
+    transform: rotate(50deg);
+}
+
+.card-2_img_2 {
+    height: 130px;
+    position: absolute;
+    top: -55px;
+    transform: rotate(180deg);
+}
+
+.card-2_img_1 {
+    position: absolute;
+    top: -55px;
+    height: 280px;
+}
+
+.card-2_quote {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    background-image: url('./card2_background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 55px 5px 55px 110px;
+}
+@media screen and (max-width:1200px)  {
+    .card-2_quote{
+        font-size: 24px;
+
+    }
+}
+.card-2_quote span {
+    font-weight: 700;
+}
+
+/*  end styles for WILD-s4-central-card-2*/
