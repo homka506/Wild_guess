@@ -131,3 +131,134 @@
 
 }
 /*  end styles for WILD-s0-central-survey*/
+
+
+/*  styles for WILD-s0-central-trivia*/
+
+.trivia {
+    background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
+    font-family: Raleway;
+    color:#fff;
+    position: relative;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    overflow-x: hidden;
+
+}
+
+.trivia_container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.trivia_item {
+    width: 100%;
+    position: relative;
+}
+.trivia_item::before{
+    content: '';
+    background-image: url(./QR_code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 187px;
+    height: 177px;
+    top: 100px;
+    left:0;
+
+}
+.trivia_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trivia_header p {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+}
+
+.trivia_title {
+    width: 772px;
+    margin-left:auto;
+    margin-right:auto
+
+}
+.trivia_title img {
+    width: 100%;
+    height: auto;
+}
+.trivia_text  {
+    max-width:924px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 75px;
+    letter-spacing: 0em;
+
+}
+.trivia_text h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+.trivia_text p {
+    font-size: 64px;
+    font-weight: 500;
+    
+}
+.trivia_background {
+    width:100%;
+    position: absolute;
+    bottom:0;
+    z-index: -1000;
+}
+.trivia_img_3 {
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:336px;
+}
+.trivia_img_2 {
+    height: 130px;
+    position: absolute;
+    bottom:0;
+}
+.trivia_img_1 {
+    position:absolute;
+    bottom:0;
+    height: 280px;
+}
+.trivia_background--right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.trivia_img_4 {
+    position: relative;
+    bottom: -10px;
+    right: -55px;
+}
+.trivia_img_5 {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width:100%;
+}
+.trivia_img_6 {
+    position: absolute;
+    bottom: 0;
+    right:-30px;
+    height:336px;
+
+}
+
+/*  end styles for WILD-s0-central-trivia*/
