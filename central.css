@@ -2,11 +2,11 @@
 .survay {
     background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
     font-family: Raleway;
-    color:#fff;
+    color: #fff;
     position: relative;
-    margin-bottom:0;
-    margin-left:0;
-    margin-right:0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: hidden;
 
 }
@@ -25,7 +25,8 @@
     width: 100%;
     position: relative;
 }
-.survay_item::before{
+
+.survay_item::before {
     content: '';
     background-image: url(./QR_code.png);
     background-size: contain;
@@ -35,9 +36,10 @@
     width: 187px;
     height: 177px;
     top: 100px;
-    left:0;
+    left: 0;
 
 }
+
 .survay_header {
     display: flex;
     justify-content: space-between;
@@ -54,31 +56,35 @@
 
 .survay_title {
     width: 465px;
-    margin-left:auto;
-    margin-right:auto
-
+    margin-left: auto;
+    margin-right: auto
 }
+
 .survay_title img {
     width: 100%;
     height: auto;
 }
-.survay_text  {
-    max-width:924px;
-    margin-left:auto;
-    margin-right:auto;
+
+.survay_text {
+    max-width: 924px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 75px;
     letter-spacing: 0em;
 
 }
+
 .survay_text h1 {
     font-size: 64px;
     font-weight: 700;
 }
+
 .survay_text p {
     font-size: 64px;
     font-weight: 500;
-    
+
 }
+
 .survay_text--italic {
     font-size: 48px;
     font-style: italic;
@@ -86,50 +92,58 @@
 }
 
 .survay_background {
-    width:100%;
+    width: 100%;
     position: absolute;
-    bottom:0;
+    bottom: 0;
     z-index: -1000;
 }
+
 .survay_img_3 {
     position: absolute;
-    left:0;
-    bottom:0;
-    height:336px;
+    left: 0;
+    bottom: 0;
+    height: 336px;
 }
+
 .survay_img_2 {
     height: 130px;
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
+
 .survay_img_1 {
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
     height: 280px;
 }
+
 .survay_background--right {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 .survay_img_4 {
     position: relative;
     bottom: -10px;
     right: -55px;
 }
+
 .survay_img_5 {
     position: absolute;
     bottom: 0;
     right: 100px;
-    width:100%;
+    width: 100%;
 }
+
 .survay_img_6 {
     position: absolute;
     bottom: 0;
-    right:-30px;
-    height:336px;
+    right: -30px;
+    height: 336px;
 
 }
+
 /*  end styles for WILD-s0-central-survey*/
 
 
@@ -138,11 +152,11 @@
 .trivia {
     background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
     font-family: Raleway;
-    color:#fff;
+    color: #fff;
     position: relative;
-    margin-bottom:0;
-    margin-left:0;
-    margin-right:0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: hidden;
 
 }
@@ -161,7 +175,8 @@
     width: 100%;
     position: relative;
 }
-.trivia_item::before{
+
+.trivia_item::before {
     content: '';
     background-image: url(./QR_code.png);
     background-size: contain;
@@ -171,9 +186,10 @@
     width: 187px;
     height: 177px;
     top: 100px;
-    left:0;
+    left: 0;
 
 }
+
 .trivia_header {
     display: flex;
     justify-content: space-between;
@@ -190,75 +206,294 @@
 
 .trivia_title {
     width: 772px;
-    margin-left:auto;
-    margin-right:auto
-
+    margin-left: auto;
+    margin-right: auto
 }
+
 .trivia_title img {
     width: 100%;
     height: auto;
 }
-.trivia_text  {
-    max-width:924px;
-    margin-left:auto;
-    margin-right:auto;
+
+.trivia_text {
+    max-width: 924px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 75px;
     letter-spacing: 0em;
 
 }
+
 .trivia_text h1 {
     font-size: 64px;
     font-weight: 700;
 }
+
 .trivia_text p {
     font-size: 64px;
     font-weight: 500;
-    
+
 }
+
 .trivia_background {
-    width:100%;
+    width: 100%;
     position: absolute;
-    bottom:0;
+    bottom: 0;
     z-index: -1000;
 }
+
 .trivia_img_3 {
     position: absolute;
-    left:0;
-    bottom:0;
-    height:336px;
+    left: 0;
+    bottom: 0;
+    height: 336px;
 }
+
 .trivia_img_2 {
     height: 130px;
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
+
 .trivia_img_1 {
-    position:absolute;
-    bottom:0;
+    position: absolute;
+    bottom: 0;
     height: 280px;
 }
+
 .trivia_background--right {
     position: absolute;
     bottom: 0;
     right: 0;
 }
+
 .trivia_img_4 {
     position: relative;
     bottom: -10px;
     right: -55px;
 }
+
 .trivia_img_5 {
     position: absolute;
     bottom: 0;
     right: 100px;
-    width:100%;
+    width: 100%;
 }
+
 .trivia_img_6 {
     position: absolute;
     bottom: 0;
-    right:-30px;
-    height:336px;
+    right: -30px;
+    height: 336px;
 
 }
 
 /*  end styles for WILD-s0-central-trivia*/
+
+/*  styles forWILD-s4-central-card-4*/
+
+.card-4 {
+    background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
+    font-family: Raleway;
+    color: #fff;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-4_container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-4_item {
+    width: 100%;
+    position: relative;
+
+}
+
+.card-4_title h1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 0em;
+    width: 509px;
+    margin: 84px auto 150px auto;
+
+}
+
+.card-4_title ::after {
+    content: '';
+    background-image: url(./Vector_3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 92px;
+    top: 50px;
+    left: 0;
+}
+
+.card-4_list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width:1200px) {
+    .card-4_list {
+        flex-direction: column
+    }
+}
+
+.card-4_list--right,
+.card-4_list--left {
+    padding: 50px 143px 76px;
+    background: #320D6F;
+    border-radius: 27px;
+}
+
+.card-4_list--left {
+    margin-left: 13px;
+}
+
+.card-4_list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-4_list li p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-4_list_number {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 25px 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 19px;
+}
+
+#card-4_number--red {
+    background: #F31B46;
+}
+
+#card-4_number--blue {
+    background: #1E67F3;
+}
+
+#card-4_number--light-green {
+    background: #058A84;
+}
+
+#card-4_number--yellow {
+    background: #F9A00C;
+}
+
+#card-4_number--purple {
+    background: #44217C;
+}
+
+#card-4_number--green {
+    background: #4FAD53;
+}
+
+#card-4_number--orange {
+    background: #FE4C09;
+}
+
+#card-4_number--light-blue {
+    background: #00B3FF;
+}
+
+#card-4_number--crimson {
+    background: #B70642;
+}
+
+#card-4_number--gray {
+    background: #706FB0;
+}
+
+.card-4_list_text {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-right: 45px;
+}
+
+.card-4_list_score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 13px;
+    margin-top: 0;
+    padding-top: 8px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.card-4_list_score::after {
+    content: '';
+    background-image: url('./cup.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 104px;
+    position: absolute;
+    top: -15px;
+    z-index: -1;
+}
+
+
+.card-4_background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1000;
+}
+
+.card-4_img_3 {
+    position: absolute;
+    left:0;
+    top: -150px;
+    height: 336px;
+    transform: rotate(50deg);
+}
+
+.card-4_img_2 {
+    height: 130px;
+    position: absolute;
+    top: -55px;
+    transform: rotate(180deg);
+}
+
+.card-4_img_1 {
+    position: absolute;
+    top: -55px;
+    height: 280px;
+}
+/*  end styles forWILD-s4-central-card-4*/
